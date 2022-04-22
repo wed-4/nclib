@@ -1,13 +1,13 @@
 nclib
 =====
 
-nclib is a python socket library that wants to be your friend.
+nclibは、netcatをpythonで使えるようにしたライブラリです。
 
-nclib provides:
+以下のような機能が実装されています。
 
-- Easy-to-use interfaces for connecting to and listening on TCP and UDP sockets
-- The ability to handle any python stream-like object with a single interface
-- A better socket class, the Netcat object
+- TCPおよびUDPソケットへの接続と待ち受けのための使いやすいインターフェース
+- Pythonのストリームのようなオブジェクトを1つのインターフェイスで扱える機能
+- より優れたソケットクラス、Netcatオブジェクト
 
   - Convenient receive methods for common socket usage patterns
   - Highly customizable logging
